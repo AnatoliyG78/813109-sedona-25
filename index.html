@@ -26,35 +26,36 @@
       </section>
       <section class="search">
         <h2 class="search-question">Заинтересовались?</h2>
-        <p class="search-text">Укажите предпологаемые даты поездки, а мы покажем вам лучшие предлоения гостиниц в Седоне</p>
+        <p class="search-text">Укажите предпологаемые даты поездки, а мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <button class="search-button" type="submit">Поиск гостиницы в Седоне</button>
         <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
           <p class="appointment-item">
-            <label class="appointment-choose"  for="appointment-entry">Дата заезда:</label>
-            <input class="appointment-date" id="appointment-entry" type="text" name="entry-date"  placeholder="24 апреля 2017">
+            <label class="appointment-label"  for="appointment-entry">Дата заезда:</label>
+            <input class="appointment-input" id="appointment-entry" type="text" name="entry-date"  placeholder="24 апреля 2017">
             <button class="calendar">
               <img src="img/svg/search-calendar.svg" alt="Календарь">
             </button>
           </p>
           <p class="appointment-item">
-            <label class="appointment-choose" for="appointment-departure">Дата выезда:</label>
-            <input class="appointment-date" id="appointment-departure" type="text" name="departure-date" placeholder="4 июля 2017">
+            <label class="appointment-label" for="appointment-departure">Дата выезда:</label>
+            <input class="appointment-input" id="appointment-departure" type="text" name="departure-date" placeholder="4 июля 2017">
             <button class="calendar">
               <img src="img/svg/search-calendar.svg" alt="Календарь">
             </button>
           </p>
           <p class="appointment-item">
-            <label class="appointment-choose" for="appointment-adults">Взрослые:</label>
-            <button class="less" type="button">-</button>
-            <input class="appointment-age" id="appointment-adults" type="number" name="adults-sum" value="1" placeholder="1">
-            <button class="more" type="button">+</button>
+            <label class="appointment-label" for="appointment-adults">Взрослые:</label>
+            <button class="appointment-button" type="button">-</button>
+            <input class="appointment-input" id="appointment-adults" type="text" name="adults-sum"  placeholder="1">
+            <button class="appointment-button" type="button">+</button>
           </p>
           <p class="appointment-item">
-            <label class="appointment-choose" for="appointment-childs">Дети:</label>
-            <button class="less" type="button">-</button>
-            <input class="appointment-age" id="appointment-childs" type="number" name="childs-sum" value="1" placeholder="0">
-            <button class="more" type="button">+</button>
+            <label class="appointment-label" for="appointment-childs">Дети:</label>
+            <button class="appointment-button" type="button">-</button>
+            <input class="appointment-input" id="appointment-childs" type="text" name="childs-sum" value="1" placeholder="0">
+            <button class="appointment-button" type="button">+</button>
           </p>
-          <button class="search-button" type="submit">Поиск гостиницы в Седоне</button>
+          <button class="appointment-search-button" type="submit">Найти</button>
         </form>
       </section>
    </main>
