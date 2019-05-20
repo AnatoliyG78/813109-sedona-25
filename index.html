@@ -8,7 +8,7 @@
    <header class="main-header">
      <nav class="main-nav">
        <a class="main-header-logo">
-         <img src="img/svg/logo-sedona.svg" width="140px" height="71px" alt="Логотип">
+         <img src="img/svg/logo-sedona.svg" width="140" height="71" alt="Логотип">
        </a>
       <ul class="site-nav">
         <li class="site-nav-item"><a href="#">Информация</a></li>
@@ -29,27 +29,33 @@
         <p class="search-text">Укажите предпологаемые даты поездки, а мы покажем вам лучшие предлоения гостиниц в Седоне</p>
         <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
           <p class="appointment-item">
-            <label for="appointment-entry">Дата заезда:</label>
-            <input id="appointment-entry" type="text" name="date" value="" placeholder="24 апреля 2017">
+            <label class="appointment-choose"  for="appointment-entry">Дата заезда:</label>
+            <input class="appointment-date" id="appointment-entry" type="text" name="entry-date"  placeholder="24 апреля 2017">
+            <button class="calendar">
+              <img src="img/svg/search-calendar.svg" alt="Календарь">
+            </button>
           </p>
           <p class="appointment-item">
-            <label for="appointment-departure">Дата выезда:</label>
-            <input id="appointment-departure" type="text" name="date" value="" placeholder="4 июля 2017">
+            <label class="appointment-choose" for="appointment-departure">Дата выезда:</label>
+            <input class="appointment-date" id="appointment-departure" type="text" name="departure-date" placeholder="4 июля 2017">
+            <button class="calendar">
+              <img src="img/svg/search-calendar.svg" alt="Календарь">
+            </button>
           </p>
           <p class="appointment-item">
-            <label for="appointment-adults">Взрослые:</label>
-            <span class="minus">-</span>
-            <input id="appointment-adults" type="number" name="sum" value="1" placeholder="1">
-            <span class="plus">+</span>
+            <label class="appointment-choose" for="appointment-adults">Взрослые:</label>
+            <button class="less" type="button">-</button>
+            <input class="appointment-age" id="appointment-adults" type="number" name="adults-sum" value="1" placeholder="1">
+            <button class="more" type="button">+</button>
           </p>
           <p class="appointment-item">
-            <label for="appointment-childs">Дети:</label>
-            <span class="minus">-</span>
-            <input id="appointment-childs" type="number" name="sum" value="1" placeholder="0">
-            <span class="plus">+</span>
+            <label class="appointment-choose" for="appointment-childs">Дети:</label>
+            <button class="less" type="button">-</button>
+            <input class="appointment-age" id="appointment-childs" type="number" name="childs-sum" value="1" placeholder="0">
+            <button class="more" type="button">+</button>
           </p>
+          <button class="search-button" type="submit">Поиск гостиницы в Седоне</button>
         </form>
-        <button class="search-button" type="submit">Поиск гостиницы в Седоне</button>
       </section>
    </main>
    <footer class="main-footer">
