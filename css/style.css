@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #00000f;
+    text-transform: uppercase;
+    background: #ffffff;
+
+    background-color: #ffffff;
+    background-image: url("../img/main-background-photo.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  a {
+    text-decoration: none;
+  }
+   .main-nav {
+     font-size: 14px ;
+     line-height: 26px ;
+     color: #00000f;
+     
+  }
+  .main-header-logo,
+  .site-nav {
+    list-style: none;
+  }
+  .main-header-logo a,
+  .site-nav a {
+    color: #00000f;
+  }
+  .main-header-logo a:hover,
+  .site-nav a:hover {
+    color: #81b3d2;
+  }
+  .main-header-logo a:active,
+  .site-nav a:active {
+    color:rgba(0, 0, 0, 0.3);
+  }
+  .main-header-logo a:focus,
+  .site-nav a:focus {
+    color: #766357;
+  }
+ 
+  .features-text {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+  }
+  .search {
+   font-size: 14px;
+   line-height: 26px;
+   color: #000000;
+   background-color: #ffffff;
+  }
+  .search-question {
+    text-align: center;
+  }
+.search-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  text-align: center;
+}
+.search-button,
+.catalog-button --dark {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #766357;
+}
+.search-button:hover,
+.catalog-button --dark:hover {
+  background-color: #604e43;
+}
+.search-button:active,
+.catalog-button --dark:active {
+  color: rgba(250,250,250,0.3);
+  background-color: #550033;
+}
+.appointment-input {
+  font-size: 14px;
+  text-align: left;
+  color:#000000;
+  background-color: #f2f2f2;
+}
+.appointment-input:hover {
+background-color: #ebebeb;
+}
+.appointment-input:focus {
+  background-color: #ffffff;
+  }
+  .appointment-button-calendar,
+  .appointment-button {
+    color: #cacaca;
+  }
+  .appointment-button-calendar:hover,
+  .appointment-button:hover  {
+    color: #ffffff;
+  }
+  .appointment-button-calendar:active,
+  .appointment-button:active  {
+    color: #81b3d2;
+  }
+  .footer-social,
+  .appointment-search-button,
+  .catalog-button --light {
+    color: #ffffff;
+    list-style: none;
+    background-color: #81b3d2;
+  }
+  .footer-social:hover,
+  .appointment-search-button:hover,
+  .catalog-button --light:hover {
+    background-color: #669ec6;
+  }
+  .footer-social:active,
+  .appointment-search-button:active,
+  .catalog-button --light:active {
+    opacity: 0.3;
+    background-color: #5496bd;
+  }
+  .footer-copyright,
+  .catalog-title {
+    list-style: none;
+    color: #000000;
+  }
+  .footer-copyright:hover,
+  .catalog-title:hover {
+   color: #81b3d2;
+    }
+    .footer-copyright:focus,
+    .catalog-title:focus {
+      color: #bdbbbc;
+       }
+
+  
+
+
+
