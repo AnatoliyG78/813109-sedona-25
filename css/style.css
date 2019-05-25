@@ -1,4 +1,4 @@
-body {
+  body {
     margin: 0;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
@@ -7,20 +7,25 @@ body {
     color: #00000f;
     text-transform: uppercase;
     background: #ffffff;
-
-    background-color: #ffffff;
-    background-image: url("../img/main-background-photo.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
   }
   a {
     text-decoration: none;
   }
-   .main-nav {
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    margin: -1px;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    clip-path: inset(100%);
+  }
+  .main-nav {
      font-size: 14px ;
      line-height: 26px ;
      color: #00000f;
-     
   }
   .main-header-logo,
   .site-nav {
@@ -58,39 +63,49 @@ body {
   .search-question {
     text-align: center;
   }
-.search-text {
+  .search-text {
   font-size: 14px;
   line-height: 24px;
   color: #333333;
   text-align: center;
-}
-.search-button,
-.catalog-button --dark {
+  }
+  .search-button,
+  .catalog-button --dark {
   font-size: 21px;
+  font-weight: bold;
   line-height: 26px;
+  text-transform: uppercase;
   text-align: center;
   color: #ffffff;
   background-color: #766357;
-}
-.search-button:hover,
-.catalog-button --dark:hover {
+  }
+  .search-button:hover,
+  .catalog-button --dark:hover {
   background-color: #604e43;
-}
-.search-button:active,
-.catalog-button --dark:active {
+  }
+  .search-button:active,
+  .catalog-button --dark:active {
   color: rgba(250,250,250,0.3);
   background-color: #550033;
-}
-.appointment-input {
+  }
+  input::placeholder {
   font-size: 14px;
+  font-weight: bold;
   text-align: left;
+  color: #000000;
+  }
+  .appointment-input  {
+  font-size: 14px;
+  font-weight: bold;
   color:#000000;
   background-color: #f2f2f2;
-}
-.appointment-input:hover {
-background-color: #ebebeb;
-}
-.appointment-input:focus {
+  }
+  .appointment-input:hover {
+  color: #000000;
+  background-color: #ebebeb;
+  }
+  .appointment-input:focus {
+  color: #000000;
   background-color: #ffffff;
   }
   .appointment-button-calendar,
@@ -108,6 +123,9 @@ background-color: #ebebeb;
   .footer-social,
   .appointment-search-button,
   .catalog-button --light {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
     color: #ffffff;
     list-style: none;
     background-color: #81b3d2;
@@ -123,19 +141,29 @@ background-color: #ebebeb;
     opacity: 0.3;
     background-color: #5496bd;
   }
-  .footer-copyright,
+  .hashtag {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #000000;
+  }
+  .footer-copyright-web {
+    font-size: 14px;
+    color: #000000;
+  }
+  .copyright-link,
   .catalog-title {
     list-style: none;
     color: #000000;
   }
-  .footer-copyright:hover,
+  .copyright-link:hover,
   .catalog-title:hover {
    color: #81b3d2;
-    }
-    .footer-copyright:focus,
-    .catalog-title:focus {
-      color: #bdbbbc;
-       }
+  }
+  .copyright-link:focus,
+  .catalog-title:focus {
+   color: #bdbbbc;
+  }
 
   
 
