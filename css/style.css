@@ -8,8 +8,10 @@ body {
     text-transform: uppercase;
     background: #ffffff;
 }
+
 a {
     text-decoration: none;
+
 }
 .visually-hidden {
     position: absolute;
@@ -22,6 +24,7 @@ a {
     white-space: nowrap;
     clip-path: inset(100%);
 }
+
 .background-photo {
     width: 1201px;
     height: 773px;
@@ -30,37 +33,45 @@ a {
     background-size: 1201px 59px, 459px 353px, 1201px 773px;
     background-position: bottom,center,top;
 }
+
 .main-nav {
-    font-size: 14px ;
-    line-height: 26px ;
+    font-size: 14px;
+    line-height: 26px;
     color: #00000f;
 }
+
 .main-header-logo,
 .site-nav {
     list-style: none;
 }
+
 .main-header-logo a,
 .site-nav a {
     color: #00000f;
 }
+
 .main-header-logo a:hover,
 .site-nav a:hover {
     color: #81b3d2;
 }
+
 .main-header-logo a:active,
 .site-nav a:active {
     color:rgba(0, 0, 0, 0.3);
 }
+
 .main-header-logo a:focus,
 .site-nav a:focus {
     color: #766357;
 }
+
 .features-text {
     font-size: 14px;
     line-height: 26px;
     text-align: center;
     color: #333333;
 }
+
 .search {
     font-size: 14px;
     line-height: 26px;
@@ -70,13 +81,15 @@ a {
 .search-question {
     text-align: center;
 }
+
 .search-text {
     font-size: 14px;
     line-height: 24px;
     color: #333333;
     text-align: center;
 }
-.catalog-title {
+
+.catalog-title.--name {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -85,16 +98,19 @@ a {
     color: #000000;
     background-color: #ffffff;
 }
-.catalog-title:hover {
+
+.catalog-title.--name:hover {
     color: #81b3d2;
     background-color: #ffffff;
 }
-.catalog-title:active {
-    color: rgba(0, 0, 0, 0.3);
+
+.catalog-title.--name:active {
+    color:rgba(0, 0, 0, 0.3);
     background-color: #ffffff;
 }
+
 .search-button,
-.catalog-button.dark a {
+.catalog-button.--dark {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -104,51 +120,58 @@ a {
     background-color: #766357;
 }
 .search-button:hover,
-.catalog-button.dark a:hover {
+.catalog-button.--dark:hover {
     color: #ffffff;
     background-color: #604e43;
 }
+
 .search-button:active,
-.catalog-button.dark a:active {
-    color: #ffffff;
+.catalog-button.--dark:active {
+    color: rgba(255, 255, 255, 0.3);
     background-color: #550033;
-    opacity: 0.3;
 }
+
 input::placeholder {
     font-size: 14px;
     font-weight: bold;
     text-align: left;
     color: #000000;
 }
-.appointment-input  {
+
+.appointment-input {
     font-size: 14px;
     font-weight: bold;
     color:#000000;
     background-color: #f2f2f2;
 }
+
 .appointment-input:hover {
     color: #000000;
     background-color: #ebebeb;
  }
+
   .appointment-input:focus {
       color: #000000;
       background-color: #ffffff;
 }
+
 .appointment-button-calendar,
 .appointment-button {
-      color: #cacaca;
+    color: #cacaca;
 }
 .appointment-button-calendar:hover,
-.appointment-button:hover  {
+.appointment-button:hover {
     color: #ffffff;
 }
+
 .appointment-button-calendar:active,
-.appointment-button:active  {
+.appointment-button:active {
     color: #81b3d2;
 }
+
 .footer-social,
 .appointment-search-button,
-.catalog-button.light {
+.catalog-button.--light {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -156,38 +179,45 @@ input::placeholder {
     list-style: none;
     background-color: #81b3d2;
 }
+
 .footer-social:hover,
 .appointment-search-button:hover,
-.catalog-button.light:hover {
+.catalog-button.--light:hover {
     color: #ffffff;
     background-color: #669ec0;
 }
+
 .footer-social:active,
 .appointment-search-button:active,
-.catalog-button.light:active {
-    color: #ffffff;
+.catalog-button.--light:active {
+    color: rgba(255, 255, 255, 0.3);
     background-color: #5496bd;
-    opacity: 0.3;
+    
 }
+
 .hashtag {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
     color: #000000;
 }
+
 .footer-copyright-web {
     font-size: 14px;
     color: #000000;
 }
+
 .copyright-link,
 .catalog-title {
     list-style: none;
     color: #000000;
 }
+
 .copyright-link:hover,
 .catalog-title:hover {
     color: #81b3d2;
 }
+
 .copyright-link:focus,
 .catalog-title:focus {
     color: #bdbbbc;
