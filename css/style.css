@@ -89,7 +89,7 @@ a {
     text-align: center;
 }
 
-.catalog-title.--name {
+.catalog-title h2, a {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -99,12 +99,12 @@ a {
     background-color: #ffffff;
 }
 
-.catalog-title.--name:hover {
+.catalog-title a:hover {
     color: #81b3d2;
     background-color: #ffffff;
 }
 
-.catalog-title.--name:active {
+.catalog-title a:active {
     color:rgba(0, 0, 0, 0.3);
     background-color: #ffffff;
 }
