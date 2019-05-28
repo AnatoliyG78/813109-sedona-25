@@ -173,20 +173,18 @@ body {
     color: rgba(255, 255, 255, 0.3);
     background-color: #503e33;
 }
-/*
-::placeholder {
+
+.appointment-input::placeholder {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
     color: #000000;
 }
-*/
+
 .appointment-input {
     font-size: 14px;
     font-weight: bold;
-    font-style: normal;
-    text-transform: uppercase;
     text-align: left;
     color:#000000;
     background-color: #f2f2f2;
