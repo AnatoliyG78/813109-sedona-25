@@ -36,13 +36,11 @@ body {
     color: #00000f;
 }
 
-.main-header-logo,
 .site-nav {
     list-style: none;
 }
 
-.main-header-logo a,
-.site-nav a {
+.site-nav-item a {
     font-size: 14px;
     font-weight: bold;
     line-height: 26px;
@@ -51,21 +49,17 @@ body {
     background-color: #ffffff;
 }
 
-.main-header-logo a:hover,
-.site-nav a:hover {
+.site-nav-item a:hover {
     color: #81b3d2;
     background-color: #ffffff;
 }
 
-.main-header-logo a:active,
-.site-nav a:active {
+.site-nav-item a:active {
     color:rgba(0, 0, 0, 0.3);
     background-color: #ffffff;
 }
 
-.site-nav-item.--active:focus,
-.main-header-logo a:focus,
-.site-nav a:focus {
+.site-nav-item.--active a {
     background-color: #ffffff;
     color: #766357;
 }
@@ -97,7 +91,7 @@ body {
     text-align: center;
 }
 
-.catalog-title h2, a {
+.catalog-title a {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -134,11 +128,32 @@ body {
     font-stretch: normal;
     line-height: 21px;
     text-align: center;
+    background-color: #f2f2f2;
     color: #666666;
 }
 
-.search-button,
 .catalog-button.--dark {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    background-color: #766357;
+}
+
+.catalog-button.--dark:hover {
+    color: #ffffff;
+    background-color: #604e43;
+}
+
+.catalog-button.--dark:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #503e33;
+}
+
+.search-button {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -149,29 +164,30 @@ body {
     background-color: #766357;
 }
 
-.search-button:hover,
-.catalog-button.--dark:hover {
+.search-button:hover {
     color: #ffffff;
     background-color: #604e43;
 }
 
-.search-button:active,
-.catalog-button.--dark:active {
+.search-button:active {
     color: rgba(255, 255, 255, 0.3);
     background-color: #503e33;
 }
-
+/*
 ::placeholder {
     font-size: 14px;
     font-weight: bold;
-    text-transform: inherit;
+    text-transform: uppercase;
     text-align: left;
     color: #000000;
 }
-
+*/
 .appointment-input {
     font-size: 14px;
     font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: left;
     color:#000000;
     background-color: #f2f2f2;
 }
@@ -204,12 +220,14 @@ body {
 .footer-social,
 .appointment-search-button,
 .catalog-button.--light {
-    font-size: 21px;
+    list-style: none;
+    font-size: 14px;
     font-weight: bold;
+    font-style: normal;
     line-height: 26px;
     text-transform: inherit;
+    text-decoration: none;
     color: #ffffff;
-    list-style: none;
     background-color: #81b3d2;
 }
 
