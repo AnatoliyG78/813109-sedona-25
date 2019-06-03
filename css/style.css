@@ -7,6 +7,8 @@ body {
     color: #00000f;
     text-transform: uppercase;
     background: #ffffff;
+    border-right: 40px solid #f2f2f2;
+    border-left: 40px solid #f2f2f2;
 }
 
 .visually-hidden {
@@ -18,7 +20,58 @@ body {
     width: 1px;
     overflow: hidden;
     white-space: nowrap;
-    clip-path: inset(100%);
+    clip-path: in;
+    set(100%);
+}
+
+.main-header {
+    
+    width: 1200px;
+    min-height: 56px;
+}
+
+.main-header-logo {
+    width: 140px;
+    height: 71px;
+    
+}
+
+.main-nav {
+     
+    display: flex;
+   
+    list-style: none;
+    font-size: 14px;
+    line-height: 26px;
+    color: #00000f;
+}
+
+.site-nav {
+    display: flex;
+    width: 1059px;
+    min-height: 56px;
+    list-style: none;
+}
+
+.site-nav-item {
+    width: 239px;
+    min-height: 56px;
+}
+
+.site-nav-item:nth-child(2) {
+    margin-right: auto;
+}
+
+.site-nav-item:nth-child(4) {
+    margin-left: auto;
+}
+
+.site-nav-item:nth-child(1) + :nth-child(2) {
+    text-align: left;
+}
+
+site-nav-item:nth-child(3) + :nth-child(4) {
+    text-align: right;
 }
 
 .background-photo {
@@ -28,16 +81,6 @@ body {
     background-repeat: no-repeat, no-repeat,no-repeat;
     background-size: 1201px 59px, 459px 353px, 1201px 773px;
     background-position: bottom,center,top;
-}
-
-.main-nav {
-    font-size: 14px;
-    line-height: 26px;
-    color: #00000f;
-}
-
-.site-nav {
-    list-style: none;
 }
 
 .site-nav-item a {
@@ -243,10 +286,32 @@ body {
     background-color: #5496bd;
 }
 
+.appointment-search-button {
+    list-style: none;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: inherit;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #81b3d2;
+}
+
+.appointment-search-button:hover {
+    color: #ffffff;
+    background-color: #669ec0;
+}
+
+.appointment-search-button:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #5496bd;
+}
+
 .hashtag {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
+    text-decoration: none;
     color: #000000;
 }
 
